@@ -20,8 +20,3 @@ Container package depdencies never need to be installed on the host system.
 `docker build -t <tagname> .` will build a docker image in your current directory.
 `docker run -p <HOST_PORT_NUM>:<DOCKER_PORT_NUM> <tagname>` will run a docker container
 with your host port mapped to a docker port if needed.
-
-`docker run -d <tagname>` will run a docker image in the background
-`docker container ls` will show a list of the running containers in docker
-`docker container stop <CONTAINER ID>` will stop the specified container from running
-`docker image ls` will show you a list of your docker images
